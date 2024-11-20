@@ -26,11 +26,6 @@ namespace юрьева
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -46,11 +41,6 @@ namespace юрьева
             Form2 newForm = new Form2(this);
             newForm.Show();// ссылка на регистрацию
             this.Hide();// окно скрыто
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)

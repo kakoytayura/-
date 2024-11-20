@@ -32,23 +32,16 @@ namespace юрьева
                 {
                     connection.Open();
 
+                    string sqlExpression = "INSERT INTO [Menu] ([NameBluda],[IdTitle],[Grams],[Opisanie])" + "VALUES (@NameBluda, @IdTitle, @Grams, @Opisanie);";
+                    OleDbCommand sqlCommand = new OleDbCommand(sqlExpression, connection);
+                    sqlCommand.Parameters.AddWithValue("@NameBluda", )
 
                 }
             }
 
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
